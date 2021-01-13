@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFMProject", "TFMProject\TFMProject.csproj", "{18092901-2896-493E-BC0B-5A13248C3044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDBService", "MyDBService\MyDBService.csproj", "{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18092901-2896-493E-BC0B-5A13248C3044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18092901-2896-493E-BC0B-5A13248C3044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18092901-2896-493E-BC0B-5A13248C3044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18092901-2896-493E-BC0B-5A13248C3044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0CD0C6-1B8E-444A-BF34-CA4F6DC6B196}
+	EndGlobalSection
+EndGlobal
