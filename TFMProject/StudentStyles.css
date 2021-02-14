@@ -1,0 +1,110 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    padding: 0; 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #006aff;
+    width: 15vw;
+}
+.sidebar-header {
+    height: 20vh;
+}
+.sidebar-menu {
+    text-align: center;
+}
+
+.sidebar-item {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.sidebar-item:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.fas {
+    font-size: 2.1rem;
+}
+
+.sidebar-link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar-link:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #006aff;
+    transition: all .3s linear;
+}
+
+
+#logout-btn:hover {
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    transition: all .3s linear;
+    box-shadow: 3px 6px 3px #0F0F0F;
+}
+
+#logout-btn:active {
+    box-shadow: 0px 0px 0px;
+    transition: all .1s ease-in-out;
+}
+
+
+.page-content {
+    margin-left: 15vw;
+    display: inline-block;
+    position: fixed;
+    height: 100%;
+    width: 85vw;
+    background-color: #F8F8F8;
+}
+
+.navbar {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+}
+
+.body-content {
+    font-size: 1.6rem;
+    padding: 20px 20px 0px 20px;
+}
+
+@media only screen and (max-width: 990px) {
+    .sidebar {
+        display: none;
+    }
+
+    .page-content {
+        margin-left: 0;
+        width: 100%;
+    }
+}

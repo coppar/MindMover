@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFMProject", "TFMProject\TFMProject.csproj", "{18092901-2896-493E-BC0B-5A13248C3044}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA} = {36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDBService", "MyDBService\MyDBService.csproj", "{36BAF766-AFB9-4FF7-A3DE-600EB9E865EA}"
 EndProject

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyDBService.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -26,6 +27,24 @@ namespace MyDBService
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+        
+        public List<Group> GetAllGroup()
+        {
+            Group grp = new Group();
+            return grp.SelectAll();
+        }
+
+        public Group GetGroupById(string id) 
+        {
+            Group grp = new Group();
+            return grp.SelectById(id);
+        }
+
+        public int CreateGroup(string name, string description)
+        {
+            Group grp = new Group(name, description);
+            return grp.Insert();
         }
     }
 }
